@@ -1,0 +1,60 @@
+/* Main Elements */
+	* {
+		box-sizing:border-box;
+		margin::0;
+		padding:0;
+}
+	html, body {
+		min-height:100%
+}
+	body {
+		background-image:url("https://images.alphacoders.com/123/1239346.png");
+		background-size:cover;
+		background-repeat:no-repeat;
+}
+
+	li, a, button, p {
+		font-family:"Times New Roman", sans-serif;
+		font-weight:500;
+		font-size:16px;
+		color:floralwhite;
+		text-decoration:none;
+}
+	header {
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+		padding:30px 10%
+}
+	.page-title {
+		cursor: pointer;
+}
+	.nav_links {
+		list-styles:none;
+}
+	.nav_links li {
+		display: inline-block;
+		padding: 0px 20px;
+}
+	.nav_links li a {
+		transition: all 0.3s ease 0s;
+}
+
+	.nav_links li a:hover {
+		color:aquamarine;
+
+}
+
+	button {
+		padding:9px 25px;
+		background-color: rgba(0,136,169,1);
+		border:none;
+		boder-radius:50px;
+		cursor:pointer;
+		transition: all 0.3s ease 0s;
+		border-radius:20px;
+}
+
+	button:hover {
+		background-color:rgba(0,136,169,0.8);
+}
