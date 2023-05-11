@@ -166,6 +166,10 @@ button:hover {
 		animation: blink 0.7s infinite;
 }
 
+.welcome, .project {
+word-wrap: break-word
+}
+
   
   /*keyframes*/
 
