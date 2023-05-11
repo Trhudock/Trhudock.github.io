@@ -166,8 +166,8 @@ button:hover {
 		animation: blink 0.7s infinite;
 }
 
-.welcome, .project {
-word-wrap: break-word
+.welcome, .project-info {
+word-wrap: break-word;
 }
 
   
