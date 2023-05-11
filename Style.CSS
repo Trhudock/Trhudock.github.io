@@ -151,6 +151,7 @@ button:hover {
 		pointer-events:none;
 		text-align:center;
 		overflow: hidden;
+		white-space: nowrap;
 		width: 0;
 		animation: typing;
 		animation-duration: 4s;
