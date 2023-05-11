@@ -1,7 +1,7 @@
 /* Main Elements */
 	* {
 		box-sizing:border-box;
-		margin::0;
+		margin:0;
 		padding:0;
 }
 	html, body {
@@ -31,7 +31,7 @@
 		user-select:none;
 }
 	.nav_links {
-		list-styles:none;
+		list-style:none;
 }
 	.nav_links li {
 		display: inline-block;
@@ -58,4 +58,18 @@
 	button:hover {
 		background-color:rgba(0,136,169,0.8);
 }
+	.profile-image {
+		width:100%;
+		height:100%;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+}
+	.profile-image img {
+		height:150px;
+		width:150px;
+		border-radius:50%;
+		justify-content:center;
+		align-items:center;
+	}
 /*keyframes*/
