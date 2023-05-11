@@ -88,9 +88,9 @@
 		color:floralwhite;
 		user-select:none;
 		cursor:default;
-		font-weight:1000;
-		font-size:250%;
-		font-family: "Source Code Pro", monospace, sans-serif;
+		font-weight:0;
+		font-size:200%;
+		font-family: font-family: 'Special Elite', cursive;
 }
 
 /*keyframes*/
