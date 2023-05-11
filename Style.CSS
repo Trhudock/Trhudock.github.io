@@ -80,7 +80,6 @@
 		pointer-events:none;
 }
 	.welcome {
-		outline: 5px dotted blue;
 		position: absolute;
     	top: 50%;
     	left: 50%;
