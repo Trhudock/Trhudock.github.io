@@ -125,16 +125,35 @@
 		text-align: center;
 }
 	.project-info {
-		display:flex;
-		align-items:center;
-		justify-content:center;
-		color:white;
-		font-size:150%;
-		padding:top 40px;
-		padding:bottom 40px;
+		text-align:center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: auto;
+		transform: translateX(-50%) translateY(-50%);
+		color: white;
+		user-select: none;
+		cursor: default;
+		font-weight: 0;
+		font-size: 200%;
+		font-family: 'Special Elite', courier;
 		cursor:default;
 		pointer-events:none;
 		text-align:center;
+		overflow: hidden;
+		white-space: nowrap;
+		width: 0;
+		animation: typing;
+		animation-duration: 4s;
+		animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+		animation-fill-mode: forwards;
+
+}
+	.project-info::after {
+		content: '|';
+		display: inline-block;
+		vertical-align: bottom;
+		animation: blink 0.7s infinite;
 }
 
   
