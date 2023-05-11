@@ -27,7 +27,8 @@
 		padding:30px 10%
 }
 	.page-title {
-		cursor: pointer;
+		cursor: default;
+		user-select:none;
 }
 	.nav_links {
 		list-styles:none;
@@ -58,3 +59,4 @@
 	button:hover {
 		background-color:rgba(0,136,169,0.8);
 }
+/*keyframes*/
