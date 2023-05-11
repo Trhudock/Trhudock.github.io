@@ -52,7 +52,7 @@
 		boder-radius:50px;
 		cursor:pointer;
 		transition: all 0.3s ease 0s;
-		border-radius:30px;
+		border-radius:100px;
 }
 
 	button:hover {
