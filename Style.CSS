@@ -124,6 +124,19 @@
 		user-select: none;
 		text-align: center;
 }
+	.project-info {
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		color:white;
+		font-size:150%;
+		padding:top 40px;
+		padding:bottom 40px;
+		cursor:default;
+		pointer-events:none;
+		text-align:center;
+}
+
   
   /*keyframes*/
 
