@@ -26,6 +26,8 @@
 		justify-content:flex-end;
 		align-items:center;
 		padding:30px 7%;
+		background-color:black;
+		height: 0.5em;
 }
 	.page-title {
 		cursor:default;
