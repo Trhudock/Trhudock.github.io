@@ -143,6 +143,14 @@ button:hover {
 font-size:5vw;
 }
 
+.nav_links li {
+	padding: 0 0.5vw
+}
+
+header {
+	padding: 2vw 1.5%;
+}
+
 }
 /*keyframes*/
 
