@@ -79,82 +79,54 @@ button:hover {
 		align-items:center;
 }
 	.profile-image img {
-		height:150px;
-		width:150px;
-		border-radius:50%;
-		justify-content:center;
-		align-items:center;
-		user-select:none;
-		cursor:default;
-		pointer-events:none;
+	height:150px;
+	width:150px;
+	border-radius:50%;
+	justify-content:center;
+	align-items:center;
+	user-select:none;
+	cursor:default;
+	pointer-events:none;
 }
-	.welcome {
-		text-align:center;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		width: auto;
-		transform: translateX(-50%) translateY(-50%);
-		color: white;
-		user-select: none;
-		cursor: default;
-		font-weight: 0;
-		font-size: 200%;
-		font-family: 'Special Elite', courier;
-		overflow: hidden;
-		white-space: nowrap;
-		font-size:4vw;
-		width: 0;
-		animation: typing;
-		animation-duration: 4s;
-		animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
-		animation-fill-mode: forwards;
+.name {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 9vw;
+	padding-top: 8vw;
+	padding-bottom: 8vw;
+	cursor: default;
+	pointer-events: none;
+	user-select: none;
+	text-align: center;
 }
-	.welcome::after {
-		content: '|';
-		display: inline-block;
-		vertical-align: bottom;
-		animation: blink 0.7s infinite;
-}
-	.name {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		color: white;
-		font-size: 9vw;
-		padding-top: 8vw;
-		padding-bottom: 8vw;
-		cursor: default;
-		pointer-events: none;
-		user-select: none;
-		text-align: center;
-}
-.project-info {
-		overflow:hidden;
-		display:inline-block;
-		white-space: nowrap;
-		font-size:4vw;
-		width: 0;
-		animation: typing;
-		animation-duration: 4s;
-		animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
-		animation-fill-mode: forwards;
-		text-align:center;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		max-width:80%;
-		transform: translateX(-50%) translateY(-50%);
-		color: white;
-		user-select: none;
-		cursor: default;
-		font-weight: 0;
-		font-size: 200%;
-		font-family: 'Special Elite', courier;
-		overflow-wrap:break-word;
+.project-info, .welcome {
+	overflow:hidden;
+	display:inline-block;
+	white-space: nowrap;
+	font-size:4vw;
+	width: 0;
+	animation: typing;
+	animation-duration: 4s;
+	animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+	animation-fill-mode: forwards;
+	text-align:center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width:80%;
+	transform: translateX(-50%) translateY(-50%);
+	color: white;
+	user-select: none;
+	cursor: default;
+	font-weight: 0;
+	font-size: 200%;
+	font-family: 'Special Elite', courier;
+	overflow-wrap:break-word;
 }
 
-.project-info::after {
+.project-info::after, .welcome::after {
 	content: '|';
 	display: inline-block;
 	animation: blink 0.7s infinite;
