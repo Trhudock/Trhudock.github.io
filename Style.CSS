@@ -24,6 +24,7 @@ li, a, p, button {
 	text-decoration: none;
 }
 
+/*Nav bar*/
 header {
 	display: flex;
 	justify-content: flex-end;
@@ -68,17 +69,17 @@ button {
     user-select: none;
 }
 button:hover { 
-		background-color:rgba(0,136,169,0.8);
+	background-color:rgba(0,136,169,0.8);
 }
 /*body*/
-	.profile-image {
-		width:100%;
-		height:100%;
-		display:flex;
-		justify-content:center;
-		align-items:center;
+.profile-image {
+	width:100%;
+	height:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
-	.profile-image img {
+.profile-image img {
 	height:150px;
 	width:150px;
 	border-radius:50%;
@@ -131,15 +132,6 @@ button:hover {
 	display: inline-block;
 	animation: blink 0.7s infinite;
 	width: 0;
-}
-
-@keyframes typing {
-	from {
-		clip-path: inset(0 100% 0 0);
-	} 
-	to {
-		clip-path: inset(0 0 0 0);
-	}
 }
 
 .project-info::after {
