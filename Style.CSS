@@ -94,8 +94,8 @@ button:hover {
 	align-items: center;
 	justify-content: center;
 	color: white;
-	font-size: 9vw;
-	padding-top: 8vw;
+	font-size: 3vw;
+	padding-top: 3vw;
 	padding-bottom: 8vw;
 	cursor: default;
 	pointer-events: none;
