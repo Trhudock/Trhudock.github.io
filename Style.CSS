@@ -121,7 +121,6 @@ button:hover {
 	color: white;
 	user-select: none;
 	cursor: default;
-	font-weight: 0;
 	font-size: 200%;
 	font-family: 'Special Elite', courier;
 	overflow-wrap:break-word;
