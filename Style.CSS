@@ -139,7 +139,9 @@ button:hover {
 
 /*Formatting*/
 @media screen and (max-width:600px) {
-
+.project-info, .welcome { 
+font-size:5vw;
+}
 
 }
 /*keyframes*/
