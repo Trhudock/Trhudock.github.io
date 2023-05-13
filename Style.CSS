@@ -16,6 +16,8 @@ body {
 	background-repeat: no-repeat;
 	background-position: center center;
 	max-width:100%;
+	min-height:100vh;
+	display:block;
 }
 
 li, a, p, button {
