@@ -17,10 +17,7 @@ body {
 	background-position: center;
 	max-width:100%;
 	min-height:100vh;
-<<<<<<< HEAD
 	display:block;
-=======
->>>>>>> 111f947 (changed min height in body)
 }
 
 li, a, p, button {
