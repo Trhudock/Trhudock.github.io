@@ -14,10 +14,13 @@ body {
 	background-image: url("https://images.pexels.com/photos/325044/pexels-photo-325044.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center;
 	max-width:100%;
 	min-height:100vh;
+<<<<<<< HEAD
 	display:block;
+=======
+>>>>>>> 111f947 (changed min height in body)
 }
 
 li, a, p, button {
