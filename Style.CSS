@@ -20,14 +20,14 @@ body {
 	display:block;
 }
 
-li, a, p, button {
+li, a, p, .contactbutton {
 	font-family: "Times New Roman", sans-serif;
 	font-weight: 500;
 	color: black;
 	text-decoration: none;
 	z-index:1000;
 }
-button {
+.contactbutton {
 	color:white;
 }
 
@@ -68,7 +68,7 @@ header {
     color: aqua;
 }
 
-button {
+.contactbutton {
 	padding: 0.4vw 1.5vw;
     background-color: rgba(0, 136, 169, 1);
     border: none;
@@ -78,7 +78,7 @@ button {
     margin-left: 2vw;
     user-select: none;
 }
-button:hover { 
+.contactbutton:hover { 
 	background-color:rgba(0,136,169,0.8);
 }
 /*body*/
@@ -149,19 +149,24 @@ button:hover {
 
 /*Formatting*/
 @media screen and (max-width:600px) {
-.project-info, .welcome { 
+.project-info, .welcome {
 font-size:5vw;
 }
-
-.nav_links li {
-	padding: 0 0.5vw
 }
+
+@media screen and (max-width:600px) {
+.nav_links, li, .contactbutton, .contactbutton:hover {
+	display:none;
+	border:none;
+	user-select:none;
+}
+}
+
 
 header {
 	padding: 2vw 1.5%;
 }
 
-}
 /*keyframes*/
 
   @keyframes typing {
@@ -175,4 +180,4 @@ header {
   @keyframes blink {
 	50% { opacity: 0 
 	}
-}  
+  }
