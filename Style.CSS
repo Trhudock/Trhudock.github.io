@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-	background-image: url("https://images.pexels.com/photos/325044/pexels-photo-325044.jpeg");
+	background-color:black;
 	background-size: cover;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
